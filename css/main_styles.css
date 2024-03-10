@@ -3,10 +3,12 @@
     Course: CIS133DA 10560
     Lesson: 14
 */
+/* DESKTOP CSS STYLES */
 body {
     background-color: #FBFAF5;
     font-family: Ariel, sans-serif;
     color: #000000;
+    margin: 0;
 }
 main {
     width: 80%;
@@ -78,6 +80,10 @@ nav a {
 .link-color {
     color: #FBFAF5;
 }
+.right {
+    float: right;
+}
+
 /* Table Styles */
 table {
     border-collapse: collapse;
