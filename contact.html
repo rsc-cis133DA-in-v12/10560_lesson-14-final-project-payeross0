@@ -1,16 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--
+        Course: CIS133DA
+        Section: # 10560
+        Lesson: 14
+    -->
+    <title>Contact | Fight for Fur Friends</title>
     <meta charset="UTF-8">
     <meta name="author" content="Payeton Ross">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="contact information, animal cruelty, helping animals, contact, email, phone, locations">
+    <meta name="description" content="where you can find us and how you can get in contact with us to get more information how you can help stop animal cruelty">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main_styles.css">
-    <script src="scripts/script.js"></script>
-    <title>Document</title>
+
+    <link rel="stylesheet" media="(min-width:900px)" href="css/main_styles.css">
+    <link rel="stylesheet" media="(max-width:450px)" href="css/mobile_style.css">
+    <link rel="stylesheet" media="(max-width:900px)" href="css/tablet_style.css">
+    <script src="scripts/script.js"></script>    
 </head>
 <body>
-    
+    <header>
+        <h1>Fight for Fur Friends</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="mission.html">Mission</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="policy.html">Policy Statements</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <table>
+                <tr>
+                    <th>LOCATION</th>
+                    <th>HOURS & CONTACT</th>
+                </tr>
+                <tr>
+                    <td>
+                        Fight for Fur Friends HQ <br>
+                        4458 E Maple Grove <br>
+                        Grassy Hill, MI 55894
+                    </td>
+                    <td>
+                        Hours: M-F – 06:00 am-5:00 pm EST <br>
+                        Phone: 455-889-5557
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Fight for Fur Friends <br>
+                        (sister location) <br>
+                        12846 Hollywood St <br>
+                        Hollywood, CA 25741
+                    </td>
+                    <td>
+                        Hours: M-F – 07:00 am-7:00 pm EST <br>
+                        Phone: 758-225-9999
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Fight for Fur Friends <br>
+                        (brother location) <br>
+                        3058 N Knight Dr <br>
+                        Meadow Way, FL 98992
+                    </td>
+                    <td>
+                        Hours: M-F – 05:00 am-6:00 pm EST <br>
+                        Phone: 614-222-2255
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <form action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
+                <label for="firstname">First Name:</label>
+                    <input name="FirstName" type="text" id="firstname">
+                    <label for="lastname">Last Name:</label>
+                    <input name="LastName" type="text" id="lastname">
+                    <label for="email">Email:</label>
+                    <input name="Email" type="text" id="email">
+                    <label for="phone">Phone:</label>
+                    <input name="Phone" type="text" id="phone">
+
+                    <p>
+                        What is the best way to contact you?
+                    </p>
+                    <label><input type="checkbox" name="Phone" id="Phone">Phone</label>
+                    <label><input type="checkbox" name="Email" id="Email">Email</label>
+
+                    <label for="comments">Additional Comments:</label>
+                    <br>
+                    <textarea id="comments" name="comments"> </textarea>
+                    <br>
+                    <button type="reset">Reset form</button>
+                    <button type="submit">Submit form</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Copyright by PAY2162183 &copy; 2024
+        </p>
+    </footer>
 </body>
 </html>
