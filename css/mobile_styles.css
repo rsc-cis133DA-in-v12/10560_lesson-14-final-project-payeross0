@@ -1,0 +1,148 @@
+/* 
+    Author: Payeton Ross
+    Course: CIS133DA 10560
+    Lesson: 14
+*/
+/* MOBILE CSS STYLES */
+body {
+    background-color: #FBFAF5;
+    font-family: Ariel, sans-serif;
+    color: #000000;
+    margin: 0;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+#resetMessage {
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
+}
+
+/* Header Styles */
+header {
+    background: url('../images/paws_background.jpg');
+    background-size: 900px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: #836D63;
+    font-size: xxx-large;
+}
+
+/** Navigation Styles **/
+nav {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+nav ul { 
+    list-style-type: none;
+    background-color: #836D63;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+ }
+nav li { 
+    float: left; 
+}
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* Class elements */
+.img-background {
+    float: left;
+    margin: 0px 20px;
+    margin-bottom: 15px;
+    background-color: #836D63;
+    padding: 10px;
+    font-size: smaller;
+}
+.mission-main {
+    display: flex;
+    flex-direction: column;
+}
+.mission-photo {
+    text-align: center;
+    margin: auto;
+}
+.policy-main {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.source-text {
+    color: white;
+}
+.link-color {
+    color: #FBFAF5;
+}
+.right {
+    float: left;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+    th {
+        background-color: #836D63;
+        color: white;
+        padding: 10px;
+      }
+}
+table, th, td {
+    border: thin solid #135367;
+    background-color: white;
+    padding: 5px;
+}
+
+/* Form Styles */
+form {
+    border: thin solid #135367;
+    padding: 20px;
+    padding-bottom: 15px;
+
+    label {
+        display: block;
+        padding: 5px;
+    }
+
+    #firstname, #lastname, #email, #phone {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+button:hover {
+    background-color: rgb(174, 167, 167);
+    color: black;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #836D63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer a { color: white; }
