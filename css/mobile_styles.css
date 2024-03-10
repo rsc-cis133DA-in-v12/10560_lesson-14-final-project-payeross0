@@ -14,6 +14,11 @@ main {
     width: 80%;
     margin: 0 auto;
 }
+#resetMessage {
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
+}
 
 /* Header Styles */
 header {
@@ -84,6 +89,7 @@ nav a {
 .right {
     float: left;
 }
+
 /* Table Styles */
 table {
     border-collapse: collapse;
@@ -100,6 +106,7 @@ table, th, td {
     background-color: white;
     padding: 5px;
 }
+
 /* Form Styles */
 form {
     border: thin solid #135367;
